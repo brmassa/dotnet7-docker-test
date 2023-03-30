@@ -41,7 +41,7 @@ jobs:
     steps:
       - name: Create generic txt
         run: |
-          echo "--version" >> build-pre-1.txt
+          echo "--version ${{ github.sha }}" >> build-pre-1.txt
           mkdir app-data
           mv build-pre-1.txt app-data/build-pre-1.txt
 
