@@ -7,7 +7,7 @@ namespace ReadFileConsoleApp
     {
         static void Main(string[] args)
         {
-            string fileName = "asdf.txt";
+            string fileName = "build-pre-1.txt";
 
             try
             {
