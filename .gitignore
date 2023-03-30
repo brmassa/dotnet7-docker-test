@@ -1,0 +1,12 @@
+obj/dotnet7-docker-test.csproj.nuget.dgspec.json
+obj/dotnet7-docker-test.csproj.nuget.g.props
+obj/dotnet7-docker-test.csproj.nuget.g.targets
+obj/project.assets.json
+obj/project.nuget.cache
+obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+obj/Debug/net7.0/dotnet7-docker-test.AssemblyInfo.cs
+obj/Debug/net7.0/dotnet7-docker-test.AssemblyInfoInputs.cache
+obj/Debug/net7.0/dotnet7-docker-test.assets.cache
+obj/Debug/net7.0/dotnet7-docker-test.csproj.AssemblyReference.cache
+obj/Debug/net7.0/dotnet7-docker-test.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net7.0/dotnet7-docker-test.GlobalUsings.g.cs
