@@ -13,20 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print .NET info
-      run: echo "--version" >> app-1/build-pre-1.txt
-
-    - name: create final path
-      run: mkdir app-1
-
-    - name: move file
-      run: mv build-pre-1.txt app-1/build-pre-1.txt
+    - name: Create generic txt
+      run: |
+        echo "--version" >> app-1/build-pre-1.txt
+        mkdir app-1
+        mv build-pre-1.txt app-1/build-pre-1.txt
 
     - name: Upload compiled files as artifacts
       uses: actions/upload-artifact@v2
       with:
         name: app-1
-        path: app-1
+        path: app-1/**
+        retention-days: 5
+        if-no-files-found: error
 
 
   build:
