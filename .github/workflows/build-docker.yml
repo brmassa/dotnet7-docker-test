@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Print .NET info
-      run: dotnet --version >> app-1/build-pre-1.txt
+      run: echo "--version" >> app-1/build-pre-1.txt
 
     - name: Upload compiled files as artifacts
       uses: actions/upload-artifact@v2
