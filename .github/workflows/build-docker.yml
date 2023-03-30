@@ -16,6 +16,12 @@ jobs:
     - name: Print .NET info
       run: echo "--version" >> app-1/build-pre-1.txt
 
+    - name: create final path
+      run: mkdir app-1
+
+    - name: move file
+      run: mv build-pre-1.txt app-1/build-pre-1.txt
+
     - name: Upload compiled files as artifacts
       uses: actions/upload-artifact@v2
       with:
