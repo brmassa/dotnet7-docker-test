@@ -59,4 +59,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: brmassa/dotnet7-docker-test:${{ github.sha }}
+        tags: brmassa/dotnet7-docker-test:latest
