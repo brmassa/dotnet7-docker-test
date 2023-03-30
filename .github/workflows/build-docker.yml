@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: Create generic txt
       run: |
-        echo "--version" >> app-1/build-pre-1.txt
+        echo "--version" >> build-pre-1.txt
         mkdir app-1
         mv build-pre-1.txt app-1/build-pre-1.txt
 
